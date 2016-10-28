@@ -41,10 +41,12 @@ var LOSE_MESSAGES = [
 ```
 I'll definitely be adding more as time goes on.  Feel free to make a recommendation.
 
-One interesting side note is that Alexa can't understand the word jawn so in the invocation name is actually sixers john.  This worked perfectly so no biggie but thought I'd mention it if you're wondering why it's documented that way.
+One interesting side note is that Alexa can't understand the word jawn so in the invocation name is actually "sixers john".  This worked perfectly so no biggie but thought I'd mention it if you're wondering why it's documented that way.
 
 I submitted this Skill to the Amazon Alexa app store on 10-28-2016 under the name Sixers Jawn.  I'll update this readme after it's in the store.
 
 This is in no way a complex Alexa skill but hopefully can be a useful example of how to easily incorporate data from a remote API in a node.js-based Lambda.
+
+The Lambda code is in the source directory and the Alexa Skill configuration is in the SpeechAssets directory.  I got this structure from Amazon's tutorial code: https://github.com/amzn/alexa-skills-kit-js
 
 
