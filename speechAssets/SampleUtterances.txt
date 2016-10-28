@@ -1,0 +1,3 @@
+WhatsUpIntent what's up
+WhatsUpIntent what is up
+WhatsUpIntent wassup
