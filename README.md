@@ -1,5 +1,5 @@
 # Sixers Jawn
-Skill and lambda for my Alexa Skill Sixers Jawn.
+This is the Skill configuration and Lambda for my Alexa Skill Sixers Jawn.
 
 I wanted to build a skill to quickly find out the current or last Sixers score and I wanted it to seem like it was coming from a buddy in Philly.
 
