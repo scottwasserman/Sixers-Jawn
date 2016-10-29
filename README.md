@@ -36,7 +36,9 @@ var LOSE_MESSAGES = [
     "We'll get them next time!",
     "Dang!",
     "Come on Philly!",
-    "Sucks!"
+    "Sucks!",
+    "What the heck!",
+    "Disapointing!"
 ];
 ```
 I'll definitely be adding more as time goes on.  Feel free to make a recommendation.
