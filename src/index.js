@@ -27,7 +27,9 @@ var LOSE_MESSAGES = [
     "We'll get them next time!",
     "Dang!",
     "Come on Philly!",
-    "Sucks!"
+    "Sucks!",
+    "What the heck!",
+    "Disapointing!"
 ];
 
 /**
@@ -76,18 +78,18 @@ Skill.prototype.intentHandlers = {
     },
 
     "AMAZON.StopIntent": function (intent, session, response) {
-        var speechOutput = "Later";
+        var speechOutput = "Stopping. Talk to you later";
         response.tell(speechOutput);
     },
 
     "AMAZON.CancelIntent": function (intent, session, response) {
-        var speechOutput = "Later";
+        var speechOutput = "Cancelling. Talk to you later";
         response.tell(speechOutput);
     }
 };
 
 function handleHelpRequest(response) {
-    response.ask("Ask me what's up!");
+    response.ask("I'm a Sixers fan just like you. I'll be here to keep you update to date on the latest score. Just ask me what's up!");
 }
 
 
@@ -98,8 +100,7 @@ function handleWhatsUpRequest(response) {
 function getGameLog(response) {
     var http = require('http');
     var url = "http://stats.nba.com/stats/teamgamelog/?TeamID=1610612755&LeagueID=00&seasonType=Regular%20Season&season=2016-17";
-    //var url = "http://stats.nba.com/stats/teamgamelog/?TeamID=1610612755&LeagueID=00&seasonType=Preseason&season=2016-17";
-    
+
     http.get(url, function(http_response) {
         var finalData = "";
 
@@ -267,8 +268,7 @@ function handleScoreCallback(response,data) {
  }
 
 function weFailed(response,err) {
-    
-    var errorString =  randomMessageByType("ERROR") + " I can't get the scores right now. Try back in a back.";
+    var errorString =  randomMessageByType("ERROR") + " I can't get the scores right now. Try back in a little bit.";
     console.log(gameResultsString);
     response.tell(errorString);
 }
@@ -298,7 +298,6 @@ function getResultSetByName(resultSets,resultName) {
 
 // Create the handler that responds to the Alexa Request.
 exports.handler = function (event, context) {
-    // Create an instance of the SpaceGeek skill.
     var skill = new Skill();
     skill.execute(event, context);
 };

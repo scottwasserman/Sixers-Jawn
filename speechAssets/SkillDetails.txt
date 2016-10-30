@@ -1,2 +1,23 @@
-Skill Name: Sixers Jawn
-Invocation Name: sixers john
+Skill Name: 
+Sixers Fan
+
+Invocation Name: 
+sixers fan
+
+Short Skill Description: 
+Get the score of the last or in progress Sixer's game with Philly flare
+
+Full Skill Description:
+Get the last or in progress Sixers score and win/loss like any Philly sports fan wants to hear it.
+
+Source for this Skill and Lamdba available at:
+http://github.com/scottwasserman
+
+DISCLAIMER: This skill is not affiliated with The Sixers or NBA Media Ventures, LLC and uses publicly available data from the NBA API which is governed by these terms of use: http://www.nba.com/news/termsofuse/
+
+Game content: Copyright 2015 NBA Media Ventures, LLC. All Rights Reserved.
+
+Example Phrases:
+Alexa ask sixers fan what's up
+Alexa tell sixers fan to give me the score
+Alexa ask sixers fan how'd they do

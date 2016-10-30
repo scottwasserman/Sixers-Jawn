@@ -1,7 +1,9 @@
 
 //getScoresForGame("0021600011");
 
-
+/**
+ * Messages
+ */
 var ERROR_MESSAGES = [
     "Dang!",
     "Bummer!",
@@ -17,12 +19,16 @@ var WIN_MESSAGES = [
     "Philly in the house!",
     "Philly won up in here!",
     "In your face!",
-    "Yo man!"
+    "Go Philly!"
 ];
 
 var LOSE_MESSAGES = [
     "We'll get them next time!",
-    "Dang!"
+    "Dang!",
+    "Come on Philly!",
+    "Sucks!",
+    "What the heck!",
+    "Disapointing!"
 ];
 
 getGameLog();

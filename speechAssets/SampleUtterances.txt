@@ -1,3 +1,10 @@
 WhatsUpIntent what's up
 WhatsUpIntent what is up
 WhatsUpIntent wassup
+WhatsUpIntent what's the scoop
+WhatsUpIntent what is the scoop
+WhatsUpIntent what's the score
+WhatsUpIntent what is the score
+WhatsUpIntent to give me the score
+WhatsUpIntent how'd they do
+WhatsUpIntent how did they do
