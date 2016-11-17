@@ -162,7 +162,7 @@ function handleScoreCallback(data) {
 		if (gameCompleted) {
 			if (sixersPoints > opponentPoints) {
 				winning = true;
-				gameResultsString = randomMessageByType("WIN") + " " + whenWasTheGame + " The Sixers beat The" + opponentNickname + " " + sixersPoints + " to " + opponentPoints + ". We're " + winLossString + " now.";
+				gameResultsString = randomMessageByType("WIN") + " " + whenWasTheGame + " The Sixers beat The " + opponentNickname + " " + sixersPoints + " to " + opponentPoints + ". We're " + winLossString + " now.";
 			}
 			else {
 				winning = false;
@@ -172,7 +172,7 @@ function handleScoreCallback(data) {
 		else {
 			if (sixersPoints > opponentPoints) {
 				winning = true;
-				gameResultsString = "Game in progress, the Sixers are beating The" + opponentNickname + " " + sixersPoints + " to " + opponentPoints;
+				gameResultsString = "Game in progress, the Sixers are beating The " + opponentNickname + " " + sixersPoints + " to " + opponentPoints;
 			}
 			else {
 				winning = false;
